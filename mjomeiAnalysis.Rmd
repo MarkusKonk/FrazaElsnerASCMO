@@ -2286,7 +2286,7 @@ Yr = 1975
 counter = 1
 loop = 1
 
-while (Yr < 2015)
+while (Yr < 2014)
   {
    while ((data.df$Year[counter] == Yr)== TRUE){  
       data.df$RMM1[counter] = mjoRMM$meanRMM1[loop]
@@ -2316,7 +2316,7 @@ Yr = 1975
 counter = 1
 loop = 2
 
-while (Yr < 2015)
+while (Yr < 2014)
   {
     while ((data.df$Year[counter] == Yr)== TRUE){  
       data.df$mei[counter] = mei$avg[loop]
@@ -2343,7 +2343,7 @@ Yr = 1975
 counter = 1
 loop = 2
 
-while (Yr < 2015)
+while (Yr < 2014)
   {
     while ((data.df$Year[counter] == Yr)== TRUE){  
       data.df$nao[counter] = nao$avg[loop]
